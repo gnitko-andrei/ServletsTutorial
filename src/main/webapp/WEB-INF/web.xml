@@ -20,6 +20,11 @@
         <servlet-class>net.proselyte.setvletstutorial.ServletRequestDemo</servlet-class>
     </servlet>
     
+    <servlet>
+        <servlet-name>ServletResponseDemo</servlet-name>
+        <servlet-class>net.proselyte.setvletstutorial.ServletResponseDemo</servlet-class>
+    </servlet>
+    
     <servlet-mapping>
         <servlet-name>SimpleServlet</servlet-name>
         <url-pattern>/SimpleServlet</url-pattern>
@@ -33,5 +38,10 @@
     <servlet-mapping>
         <servlet-name>ServletRequestDemo</servlet-name>
         <url-pattern>/ServletRequestDemo</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>ServletResponseDemo</servlet-name>
+        <url-pattern>/ServletResponseDemo</url-pattern>
     </servlet-mapping>
 </web-app>

@@ -5,6 +5,16 @@
 <web-app>
     <display-name>Servlets Tutorial</display-name>
 
+    <filter>
+        <filter-name>FilterDemo</filter-name>
+        <filter-class>net.proselyte.setvletstutorial.FilterDemo</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>FilterDemo</filter-name>
+        <url-pattern>/FilterDemo</url-pattern>
+    </filter-mapping>
+
     <servlet>
         <servlet-name>SimpleServlet</servlet-name>
         <servlet-class>net.proselyte.setvletstutorial.SimpleServlet</servlet-class>
@@ -19,6 +29,7 @@
         <servlet-name>ServletRequestDemo</servlet-name>
         <servlet-class>net.proselyte.setvletstutorial.ServletRequestDemo</servlet-class>
     </servlet>
+
     <servlet>
         <servlet-name>ServletResponseDemo</servlet-name>
         <servlet-class>net.proselyte.setvletstutorial.ServletResponseDemo</servlet-class>

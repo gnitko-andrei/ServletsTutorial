@@ -1,4 +1,4 @@
-package net.proselyte.setvletstutorial;
+package net.proselyte.servletstutorial;
 
 import javax.servlet.*;
 import java.io.IOException;

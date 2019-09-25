@@ -7,7 +7,7 @@
 
     <filter>
         <filter-name>FilterDemo</filter-name>
-        <filter-class>net.proselyte.setvletstutorial.FilterDemo</filter-class>
+        <filter-class>net.proselyte.servletstutorial.FilterDemo</filter-class>
     </filter>
 
     <filter-mapping>
@@ -17,47 +17,52 @@
 
     <servlet>
         <servlet-name>SimpleServlet</servlet-name>
-        <servlet-class>net.proselyte.setvletstutorial.SimpleServlet</servlet-class>
+        <servlet-class>net.proselyte.servletstutorial.SimpleServlet</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>StatusCodeDemo</servlet-name>
-        <servlet-class>net.proselyte.setvletstutorial.StatusCodeDemo</servlet-class>
+        <servlet-class>net.proselyte.servletstutorial.StatusCodeDemo</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>ServletRequestDemo</servlet-name>
-        <servlet-class>net.proselyte.setvletstutorial.ServletRequestDemo</servlet-class>
+        <servlet-class>net.proselyte.servletstutorial.ServletRequestDemo</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>ServletResponseDemo</servlet-name>
-        <servlet-class>net.proselyte.setvletstutorial.ServletResponseDemo</servlet-class>
+        <servlet-class>net.proselyte.servletstutorial.ServletResponseDemo</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>PassingParametersUsingGetMethodDemo</servlet-name>
-        <servlet-class>net.proselyte.setvletstutorial.PassingParametersUsingGetMethodDemo</servlet-class>
+        <servlet-class>net.proselyte.servletstutorial.PassingParametersUsingGetMethodDemo</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>PassingParametersUsingPostMethodDemo</servlet-name>
-        <servlet-class>net.proselyte.setvletstutorial.PassingParametersUsingPostMethodDemo</servlet-class>
+        <servlet-class>net.proselyte.servletstutorial.PassingParametersUsingPostMethodDemo</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>ErrorDemo</servlet-name>
-        <servlet-class>net.proselyte.setvletstutorial.ErrorDemo</servlet-class>
+        <servlet-class>net.proselyte.servletstutorial.ErrorDemo</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>SessionTrackingDemo</servlet-name>
-        <servlet-class>net.proselyte.setvletstutorial.SessionTrackingDemo</servlet-class>
+        <servlet-class>net.proselyte.servletstutorial.SessionTrackingDemo</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>CookieDemo</servlet-name>
-        <servlet-class>net.proselyte.setvletstutorial.CookieDemo</servlet-class>
+        <servlet-class>net.proselyte.servletstutorial.CookieDemo</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DateTimeDemo</servlet-name>
+        <servlet-class>net.proselyte.servletstutorial.DateTimeDemo</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -103,6 +108,11 @@
     <servlet-mapping>
         <servlet-name>CookieDemo</servlet-name>
         <url-pattern>/CookieDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DateTimeDemo</servlet-name>
+        <url-pattern>/DateTimeDemo</url-pattern>
     </servlet-mapping>
 
     <error-page>

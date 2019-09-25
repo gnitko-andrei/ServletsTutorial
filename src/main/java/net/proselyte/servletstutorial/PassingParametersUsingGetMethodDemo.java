@@ -1,4 +1,4 @@
-package net.proselyte.setvletstutorial;
+package net.proselyte.servletstutorial;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

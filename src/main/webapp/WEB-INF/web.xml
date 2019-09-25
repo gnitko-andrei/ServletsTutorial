@@ -70,6 +70,16 @@
         <servlet-class>net.proselyte.servletstutorial.AutoRefreshDemo</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>RedirectDemo</servlet-name>
+        <servlet-class>net.proselyte.servletstutorial.RedirectDemo</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>PageVisitsCounterDemo</servlet-name>
+        <servlet-class>net.proselyte.servletstutorial.PageVisitsCounterDemo</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>SimpleServlet</servlet-name>
         <url-pattern>/SimpleServlet</url-pattern>
@@ -123,6 +133,16 @@
     <servlet-mapping>
         <servlet-name>AutoRefreshDemo</servlet-name>
         <url-pattern>/AutoRefreshDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RedirectDemo</servlet-name>
+        <url-pattern>/RedirectDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>PageVisitsCounterDemo</servlet-name>
+        <url-pattern>/PageVisitsCounterDemo</url-pattern>
     </servlet-mapping>
 
     <error-page>

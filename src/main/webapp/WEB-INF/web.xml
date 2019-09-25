@@ -80,6 +80,11 @@
         <servlet-class>net.proselyte.servletstutorial.PageVisitsCounterDemo</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>LocaleDemo</servlet-name>
+        <servlet-class>net.proselyte.servletstutorial.LocaleDemo</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>SimpleServlet</servlet-name>
         <url-pattern>/SimpleServlet</url-pattern>
@@ -143,6 +148,11 @@
     <servlet-mapping>
         <servlet-name>PageVisitsCounterDemo</servlet-name>
         <url-pattern>/PageVisitsCounterDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>LocaleDemo</servlet-name>
+        <url-pattern>/LocaleDemo</url-pattern>
     </servlet-mapping>
 
     <error-page>

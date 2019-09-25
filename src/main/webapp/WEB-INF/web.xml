@@ -65,6 +65,11 @@
         <servlet-class>net.proselyte.servletstutorial.DateTimeDemo</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>AutoRefreshDemo</servlet-name>
+        <servlet-class>net.proselyte.servletstutorial.AutoRefreshDemo</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>SimpleServlet</servlet-name>
         <url-pattern>/SimpleServlet</url-pattern>
@@ -113,6 +118,11 @@
     <servlet-mapping>
         <servlet-name>DateTimeDemo</servlet-name>
         <url-pattern>/DateTimeDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AutoRefreshDemo</servlet-name>
+        <url-pattern>/AutoRefreshDemo</url-pattern>
     </servlet-mapping>
 
     <error-page>

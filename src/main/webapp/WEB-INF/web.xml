@@ -25,6 +25,16 @@
         <servlet-class>net.proselyte.setvletstutorial.ServletResponseDemo</servlet-class>
     </servlet>
     
+    <servlet>
+        <servlet-name>PassingParametersUsingGetMethodDemo</servlet-name>
+        <servlet-class>net.proselyte.setvletstutorial.PassingParametersUsingGetMethodDemo</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>PassingParametersUsingPostMethodDemo</servlet-name>
+        <servlet-class>net.proselyte.setvletstutorial.PassingParametersUsingPostMethodDemo</servlet-class>
+    </servlet>
+    
     <servlet-mapping>
         <servlet-name>SimpleServlet</servlet-name>
         <url-pattern>/SimpleServlet</url-pattern>
@@ -43,5 +53,15 @@
     <servlet-mapping>
         <servlet-name>ServletResponseDemo</servlet-name>
         <url-pattern>/ServletResponseDemo</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>PassingParametersUsingGetMethodDemo</servlet-name>
+        <url-pattern>/PassingParametersUsingGetMethodDemo</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>PassingParametersUsingPostMethodDemo</servlet-name>
+        <url-pattern>/PassingParametersUsingPostMethodDemo</url-pattern>
     </servlet-mapping>
 </web-app>

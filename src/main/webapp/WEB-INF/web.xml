@@ -50,6 +50,11 @@
         <servlet-class>net.proselyte.setvletstutorial.ErrorDemo</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>SessionTrackingDemo</servlet-name>
+        <servlet-class>net.proselyte.setvletstutorial.SessionTrackingDemo</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>SimpleServlet</servlet-name>
         <url-pattern>/SimpleServlet</url-pattern>
@@ -83,6 +88,11 @@
     <servlet-mapping>
         <servlet-name>ErrorDemo</servlet-name>
         <url-pattern>/ErrorDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SessionTrackingDemo</servlet-name>
+        <url-pattern>/SessionTrackingDemo</url-pattern>
     </servlet-mapping>
 
     <error-page>
